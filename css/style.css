@@ -378,7 +378,7 @@ header .right-side-menu .sub-menu a li:hover {
   height: 16rem;
 }
 
-.section-third .section-third-task .task-3 {
+.section-third .section-third-task .task-3:hover {
   background: #fff;
   box-shadow: 0rem 0.4rem 2rem rgba(35, 52, 53, 0.25);
 }
