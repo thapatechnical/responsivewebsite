@@ -217,15 +217,15 @@ header .right-side-menu .sub-menu a li:hover {
 ------------------------------------ */
 .main-hero-section .hero-right-side {
   width: 50%;
-  height: 100vh;
+  height: 80%;
   background: var(--background-color);
   position: absolute;
   right: 0;
-  top: 0;
-  border-radius: 90px 20px 0px 90px;
+  border-radius: 90px 90px 90px 90px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left:10rem ;
 }
 
 .main-hero-section .hero-right-side img {
@@ -323,7 +323,7 @@ header .right-side-menu .sub-menu a li:hover {
   width: 100%;
   height: 70rem;
   background: var(--background-color);
-  padding: 3rem 20rem;
+  padding: 5rem 5rem;
 }
 
 .section-third h2 {
@@ -378,16 +378,16 @@ header .right-side-menu .sub-menu a li:hover {
   height: 16rem;
 }
 
-.section-third .section-third-task .task-3 {
+
+.section-third .section-third-task .task-1:hover,
+.section-third .section-third-task .task-2:hover,
+.section-third .section-third-task .task-3:hover {
   background: #fff;
   box-shadow: 0rem 0.4rem 2rem rgba(35, 52, 53, 0.25);
 }
 
-.section-third .section-third-task .task-1:hover,
-.section-third .section-third-task .task-2:hover {
-  background: #fff;
-  box-shadow: 0rem 0.4rem 2rem rgba(35, 52, 53, 0.25);
-}
+
+
 
 .section-third .section-third-task .task-1:hover > img,
 .section-third .section-third-task .task-2:hover > img,
@@ -549,8 +549,8 @@ footer .footer-div-5 a {
   }
 
   .main-hero-section .hero-right-side img {
-    width: 95rem;
-    height: 95rem;
+    width: 80%;
+    height: 80%;
     margin-right: 30rem;
   }
 }
@@ -567,8 +567,8 @@ footer .footer-div-5 a {
   }
 
   .main-hero-section .hero-right-side img {
-    width: 80rem;
-    height: 80rem;
+    width: 100%;
+    height: 100%;
 
     margin-right: 28rem;
     margin-top: 5rem;
