@@ -217,7 +217,7 @@ header .right-side-menu .sub-menu a li:hover {
 ------------------------------------ */
 .main-hero-section .hero-right-side {
   width: 50%;
-  height: 100vh;
+  height: 160vh;
   background: var(--background-color);
   position: absolute;
   right: 0;
